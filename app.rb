@@ -15,7 +15,7 @@ class App < Sinatra::Base
 
   get "/goodbye/:name" do
     @name = params[:names]
-    "Goodbye, #{@name}!"
+    "Goodbye,#{@name}!"
   end
 
 end
